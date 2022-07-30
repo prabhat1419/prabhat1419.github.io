@@ -7,13 +7,12 @@
   <meta name="description" content="Personal portfolio Website">
   <meta name="author" content="Prabhat Kumar Mishras">
   <link rel="icon" href="images/p_logo.jpg">
-  <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Lobster&family=Pacifico&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Inconsolata:wght@500&family=PT+Serif&family=Roboto+Slab&family=Roboto:wght@300&family=Sacramento&display=swap" rel="stylesheet">
+  <!-- Bootstrap css -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -27,44 +26,55 @@
 
   <div class="middle-container">
     <div class="profile">
-      <img src="images\model.png" alt="profile picture" width="150" height="150">
-      <h2>Hello</h2>
-      <p>An Electronics Engineering student with a passion for web development. Currently I am persuing B.Tech
-        from Greater Noida Institute of Technology.</p>
+      <article>
+        <figure>
+          <img class="image-model" src="images\model.png" alt="profile picture">
+        </figure>
+        <h2 class="greeting">Hello</h2>
+        <p>An Electronics Engineering student with a passion for web development. Currently I am persuing B.Tech
+          from Greater Noida Institute of Technology.</p>
+      </article>
     </div>
     <hr>
     <div class="skills">
       <h2>My Skills.</h2>
       <div class="skill-row">
         <img class="hardskills" src="images/computer.png" alt="coumpter-img">
-        <h3 class="hard"><u>Hard Skills</u></h3>
-        <p>I have knowledge of Object-oriented programming (OOP) languages with different
-        Integrated development environments (IDEs) experiences. I have done a C++ course in Data structures and algorithms.
-        I know about Git and Version control softwares. Currently I am learning DBMS and Web development.</p>
+        <h3 class="hard">Hard Skills</h3>
+        <p>I have knowledge of different Object-oriented programming (OOP) languages like C++/JAVA with experience
+          of different Integrated development environments (IDEs). I have done a C++ course in Data structures and
+          algorithms. I know about Git and Version control softwares. Currently I am learning DBMS and Web development.</p>
       </div>
       <div class="skill-row">
         <img class="softskills" src="images/skills.png" alt="skills-img">
-        <h3 class="soft"><u>Soft Skills</u></h3>
-        <p>With programming and computer knowledge, I am also proficient in Communication (verbal and written).
-        I have worked on many projects during Open-Source AOSP development and I have Teamwork and conflict resolution skills.
-        I love Problem-solving with different techniques and also I am efficient in Time management to flow with my schedules.</p>
+        <h3 class="soft">Soft Skills</h3>
+        <p>With programming and computer knowledge, I am also proficient in Communication, both verbal and written.
+          I have worked on many projects during AOSP Open-Source development and I have Teamwork experience with
+          conflict resolution skills. I like Problem-solving and also I am efficient in Time management.</p>
       </div>
     </div>
   </div>
 
   <hr>
 
-  <div class="bottom-container">
-    <div class="contact-me">
-      <h2>Get In Touch</h2>
-      <h3 class="btnmssg">If you love programming as much as I do then feel free to contact.</h3>
-      <a class="btn" href="mailto:rpkm1914@gmail.com">CONTACT ME</a>
+  <section class="bottom">
+    <div class="bottom-container">
+      <article>
+        <header class="contact-header">
+          <h2>Get In Touch</h2>
+          <h3 class="btnmssg">If you love programming as much as I do and want a coding adventure together
+            then feel free to contact me.</h3>
+        </header>
+        <p>
+          <a class="btn btn-outline-success" href="mailto:rpkm1914@gmail.com">MESSAGE ME</a>
+        </p>
+      </article>
     </div>
-  </div>
+  </section>
 
   <div class="footer">
-    <a class="footer-link" href="https://www.linkedin.com/in/pkm774/">LinkedIn</a>
-    <a class="footer-link" href="https://github.com/pkm774">Github</a>
+    <a class="footer-link" href="https://www.linkedin.com/in/pkm774/">linkedin</a>
+    <a class="footer-link" href="https://github.com/pkm774">github</a>
     <p class="copyright">© 2022 Prabhat Kumar Mishra, All rights reserved.</p>
   </div>
 
